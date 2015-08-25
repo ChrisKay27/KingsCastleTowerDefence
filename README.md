@@ -6,7 +6,7 @@ Feel free to use this code to make your own apps. But please do not use the King
 
 
 How it all works
-	-
+	-To be completed...
 
 
 
