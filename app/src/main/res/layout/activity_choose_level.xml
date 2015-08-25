@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/fiftyDp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kingscastle.nuzi.towerdefence.ChooseLevelActivity"
+                android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose the level you want to play."
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#010100"
+        android:visibility="visible"
+        android:paddingTop="10dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:layout_centerInParent="true" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forest"
+                android:id="@+id/forest_button"
+                android:layout_margin="10dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valley"
+                android:id="@+id/forest2_button"
+                android:layout_margin="10dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forest Strip"
+                android:id="@+id/ForestStrip_button"
+                android:layout_margin="10dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desert"
+                android:id="@+id/desert_button"
+                android:layout_margin="10dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desert 2"
+                android:id="@+id/desert_2_button"
+                android:layout_margin="10dp"
+                android:onClick="onClick" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desert 3"
+                android:id="@+id/desert_3_button"
+                android:layout_margin="10dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desert 4"
+                android:id="@+id/desert_4_button"
+                android:layout_margin="10dp"
+                android:onClick="onClick" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Castle"
+                android:id="@+id/castle_level_button"
+                android:layout_margin="10dp"
+                android:onClick="onClick"
+                android:visibility="gone" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

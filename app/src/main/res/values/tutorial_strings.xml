@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome to Kings Castle Tower Defence. This short tutorial should help you learn how to play this game.</string>
+    <string name="objective">The objective of this game is to stop the invading monsters from making it from their spawn location to the objective.</string>
+    <string name="buildings">To stop them you must build soldiers and towers.</string>
+    <string name="build">You build buildings by pressing the build buildings button in the lower right hand corner of the screen.</string>
+    <string name="question">Pressing the question mark in the corner of the building buttons will give you a short description of the building</string>
+
+</resources>

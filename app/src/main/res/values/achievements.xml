@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">511138622500</string>
+    <string name="achievement_beat_round_1">CgkIpNjxkfAOEAIQAg</string>
+    <string name="achievement_kill_50_monsters">CgkIpNjxkfAOEAIQAw</string>
+    <string name="achievement_kill_50_monsters_on_hard">CgkIpNjxkfAOEAIQBA</string>
+    <string name="achievement_passed_the_spider_level">CgkIpNjxkfAOEAIQBQ</string>
+    <string name="achievement_beat_the_coyote_lord">CgkIpNjxkfAOEAIQBg</string>
+    <string name="achievement_beat_gaia">CgkIpNjxkfAOEAIQBw</string>
+    <string name="leaderboard_top_score_on_easy">CgkIpNjxkfAOEAIQCA</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="true"
+    android:longClickable="false"
+    android:visibility="visible" >
+
+    <ScrollView
+        android:id="@+id/scrollViewSelOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="50dp"
+        android:animateLayoutChanges="true"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/scrollerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="75dp"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+        </LinearLayout>
+    </ScrollView>
+
+    
+        <TextView
+            android:id="@+id/textViewHpDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewSelectedsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+        
+	<ImageButton
+	    android:id="@+id/imageButtonCancelButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_margin="5dp"
+	    android:background="@null"
+	    android:src="@drawable/cancel"
+	    android:visibility="invisible" />
+
+	<ImageButton
+	    android:id="@+id/imageButtonBuildButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_margin="5dp"
+	    android:background="@null"
+	    android:src="@drawable/build_button"
+	    android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/buttonFinishNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@+id/imageButtonCloseSelDisplay2"
+            android:background="@null"
+            android:src="@drawable/finish_now"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/buttonSelectedsInfo"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/imageButtonCloseSelDisplay2"
+            android:background="@null"
+            android:src="@drawable/info" />
+        
+        <LinearLayout
+            android:id="@+id/linearLayoutBuildQueue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:animateLayoutChanges="true"
+            android:minHeight="100dp"
+            android:minWidth="100dp"
+            android:orientation="vertical" >
+    	</LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageButtonCloseSelDisplay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:paddingRight="0dp"
+            android:src="@drawable/unselect_button" />
+
+        <TextView
+            android:id="@+id/textViewSelectedsTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textViewSelectedsTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+   
+</RelativeLayout>

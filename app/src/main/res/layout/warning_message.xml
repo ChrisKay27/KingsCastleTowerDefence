@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"  
+    tools:context="com.kaebe.kingscastlelib.KingsCastle" >
+
+			
+			<RelativeLayout
+			    android:id="@+id/relativeLayoutWarning"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:animateLayoutChanges="true"
+			    android:focusable="true"
+			    android:focusableInTouchMode="true"
+			    android:gravity="center_vertical|center_horizontal" >
+	       		
+	       		<RelativeLayout
+	       		    android:id="@+id/relativeLayoutTexts"
+	       		    android:layout_width="wrap_content"
+	       		    android:layout_height="wrap_content"
+	       		    android:layout_centerHorizontal="true"
+	       		    android:layout_margin="10dp"
+	       		    android:background="@drawable/info_text_background" >
+	          		
+				    <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+				        android:id="@+id/textViewWarningMessage"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"	
+				        android:text=""
+				        android:textAppearance="?android:attr/textAppearanceMedium"
+				        android:textColor="@color/gray"
+				        android:textSize="25sp" />
+<!-- 				    <TextView -->
+<!-- 				        android:id="@+id/textViewWarningMessage2" -->
+<!-- 				        android:layout_width="wrap_content" -->
+<!-- 				        android:layout_height="wrap_content"		 -->
+<!-- 				        android:text="" -->
+<!-- 				        android:textAppearance="?android:attr/textAppearanceMedium" -->
+<!-- 				        android:textColor="@color/gray" -->
+<!-- 				        android:textSize="25sp" /> -->
+<!-- 				    <TextView -->
+<!-- 				        android:id="@+id/textViewWarningMessage3" -->
+<!-- 				        android:layout_width="wrap_content" -->
+<!-- 				        android:layout_height="wrap_content"			 -->
+<!-- 				        android:text="" -->
+<!-- 				        android:textAppearance="?android:attr/textAppearanceMedium" -->
+<!-- 				        android:textColor="@color/gray" -->
+<!-- 				        android:textSize="25sp" /> -->
+			
+				</RelativeLayout>
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/relativeLayoutTexts"
+		        android:layout_centerHorizontal="true" >
+
+		        <ImageButton
+		            android:id="@+id/imageButtonNegButton"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@null"
+		            android:src="@drawable/no_button"
+		            android:visibility="gone" />
+
+		        <ImageButton
+		            android:id="@+id/imageButtonPosButton"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@null"
+		            android:src="@drawable/ok_button"
+		            android:visibility="gone" />
+
+		    </LinearLayout>
+
+		</RelativeLayout>
+</ScrollView> 

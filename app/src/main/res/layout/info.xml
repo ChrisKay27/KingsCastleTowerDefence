@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:animateLayoutChanges="true"
+    android:background="@null"    
+    android:textColor="#d6d6d6" >
+ 
+ 
+ 	<ScrollView
+    	android:id="@+id/scrollViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >        
+
+	      <RelativeLayout
+	          android:id="@+id/relativeLayoutInfo"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_margin="15dp"
+	          android:animateLayoutChanges="true"
+	          android:focusable="true"
+	          android:focusableInTouchMode="true"
+	          android:minWidth="300dp"
+	          android:scrollbars="vertical" >
+
+	          <LinearLayout
+	              android:id="@+id/infoLinearLayout"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_toRightOf="@+id/infoImageBacking"
+	              android:background="@drawable/info_text_background"
+	              android:orientation="vertical" >
+
+	              <RelativeLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_height="wrap_content"
+					  android:id="@+id/lvl_info_rel_layout">
+
+	                  <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+	                      android:id="@+id/textViewInfoLvl"
+	                      android:layout_width="wrap_content"
+	                      android:layout_height="wrap_content"
+	                      android:maxLines="1"
+	                      android:text="@string/level"
+	                      android:textAppearance="?android:attr/textAppearanceMedium"
+	                      android:textColor="@color/gray"
+	                      android:textSize="19dp" />
+	              </RelativeLayout>
+
+				  <RelativeLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_height="wrap_content" >
+
+	                  <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+	                      android:id="@+id/textViewInfoDps"
+	                      android:layout_width="wrap_content"
+	                      android:layout_height="wrap_content"
+	                      android:layout_marginRight="10dp"
+	                      android:lines="1"
+	                      android:maxLines="1"
+	                      android:minWidth="200dp"
+	                      android:text="@string/dps"
+	                      android:textColor="@color/gray"
+	                      android:textSize="19dp" />
+	              </RelativeLayout>
+				  <RelativeLayout
+					  android:layout_width="match_parent"
+					  android:layout_height="wrap_content" >
+
+					  <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+						  android:id="@+id/textViewInfoROF"
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_marginRight="10dp"
+						  android:lines="1"
+						  android:maxLines="1"
+						  android:minWidth="200dp"
+						  android:text="@string/rof"
+						  android:textColor="@color/gray"
+						  android:textSize="19dp" />
+				  </RelativeLayout>
+	              <RelativeLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_height="wrap_content" >
+
+	                  <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+	                      android:id="@+id/textViewInfoGoldCost"
+	                      android:layout_width="wrap_content"
+	                      android:layout_height="wrap_content"
+	                      android:layout_marginRight="10dp"
+	                      android:lines="1"
+	                      android:maxLines="1"
+	                      android:minWidth="200dp"
+	                      android:text="@string/gold_cost"
+	                      android:textColor="@color/gray"
+	                      android:textSize="19dp" />
+	              </RelativeLayout>
+				  <RelativeLayout
+					  android:layout_width="match_parent"
+					  android:layout_height="wrap_content" >
+
+					  <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+						  android:id="@+id/textViewInfoUpgradeCost"
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_marginRight="10dp"
+						  android:lines="1"
+						  android:maxLines="1"
+						  android:minWidth="200dp"
+						  android:text="@string/upgrade_cost"
+						  android:textColor="@color/gray"
+						  android:textSize="19dp" />
+				  </RelativeLayout>
+			  </LinearLayout>
+
+	          <TextView
+	              android:id="@+id/textViewInfoFiller"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_centerHorizontal="true" />
+
+	          <RelativeLayout
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+				  android:background="@drawable/info_text_background"
+				  android:layout_below="@+id/infoImageBacking"
+				  android:layout_centerHorizontal="true"
+				  android:layout_alignLeft="@+id/infoImageBacking">
+
+	              <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+	                  android:id="@+id/textViewInfoDescription"
+	                  android:layout_width="wrap_content"
+	                  android:layout_height="wrap_content"
+	                  android:layout_centerHorizontal="true"
+	                  android:layout_marginBottom="10dp"
+	                  android:maxWidth="400dp"
+	                  android:text="@string/town_centre_info"
+	                  android:textAppearance="?android:attr/textAppearanceMedium"
+	                  android:textColor="@color/gray"
+	                  android:textSize="19dp" />
+	          </RelativeLayout>
+
+	          <RelativeLayout
+	              android:id="@+id/infoImageBacking"
+	              android:layout_width="150dp"
+	              android:layout_height="150dp"
+	              android:layout_alignParentLeft="true"
+	              android:layout_alignParentTop="true"
+	              android:layout_marginLeft="15dp"
+	              android:layout_marginRight="15dp"
+	              android:layout_marginTop="20dp"
+	              android:background="@drawable/image_background2" >
+
+	              <ImageView
+	                  android:id="@+id/infoImage"
+	                  android:layout_width="wrap_content"
+	                  android:layout_height="wrap_content"
+	                  android:layout_centerInParent="true" />
+
+	          </RelativeLayout>
+
+	          <TextView
+	              android:id="@+id/textViewInfoFiller2"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_centerHorizontal="true" />
+
+	          <TextView
+	              android:id="@+id/textViewScrollDown"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_alignParentLeft="true"
+	              android:lines="11"
+	              android:text="S\nc\nr\no\nl\nl\n\nD\no\nw\nn"
+	              android:textColor="@color/gray"
+	              android:textSize="16sp"
+	              android:visibility="invisible" />
+
+	      </RelativeLayout>
+    
+	</ScrollView>
+</RelativeLayout>

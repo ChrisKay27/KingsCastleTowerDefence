@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/windowWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/window"
+        android:clipChildren="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+                android:id="@+id/windowTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="45dp"
+                android:text="Title"
+                android:textColor="@color/gray"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/windowCloseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/x" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/windowContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:clipChildren="true" >
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/windowPosNegButtonsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp" >
+
+            <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+                android:id="@+id/windowNegText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/red_150x38"
+                android:text="NegButton"
+                android:textColor="@color/gray" />
+
+            <com.kingscastle.nuzi.towerdefence.ui.CTextView2
+                android:id="@+id/windowPosText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/blue_150x38"
+                android:text="PosButton"
+                android:textColor="@color/gray" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

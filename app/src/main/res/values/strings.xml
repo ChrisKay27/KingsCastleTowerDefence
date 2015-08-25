@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">Tower Defence Free</string>
+
+    <string name="back_to_main_menu">Back To Main Menu</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_choose_level">Choose Level</string>
+    <string name="title_activity_level_details">Level Details</string>
+
+
+    <string name="mainTitle">Kings Castle</string>
+
+    <string name="crash_toast_text">Kings Castle has crashed. Please send us the crash report so this problem can be fixed.</string>
+
+    <string name="challenges_title">Challenges</string>
+
+    <string name="disconnected">You have been disconnected</string>
+
+    <string name="disconnected_inactivity">You have been disconnected due to inactivity</string>
+
+    <string name="reconnect">Reconnect?</string>
+
+    <string name="try_again">Try Again</string>
+
+    <string name="unable_to_load_yourbase">Unable to connect with the server, please retry later</string>
+
+    <string name="unable_to_login">Login Failed. Kings Castle requires google plus login to play.</string>
+
+    <string name="you_must_have_an_army">You must have soldiers in your army to do this</string>
+
+    <string name="you_must_have_a_barracks">You must have a barracks to do this.</string>
+
+    <!-- Invade Level -->
+
+
+    <string name="too_close">Too close to enemy</string>
+
+    <string name="back_msg">Go Home</string>
+
+    <string name="you_won">You Won!</string>
+
+    <string name="you_lost">You lost this battle.</string>
+
+    <string name="you_stole">You stole</string>
+
+    <string name="you_earned">You earned</string>
+
+    <string name="but_you_stole">But you stole</string>
+
+    <string name="first">first.</string>
+
+    <!-- Dialog -->
+
+
+    <string name="cannot_afford">You cannot afford this.</string>
+
+    <string name="would_you_like_to_buy_plural">Would you like to buy the %1$s for %2$s?</string>
+
+    <string name="would_you_like_to_buy_single">Would you like to buy a %1$s for %2$s?</string>
+
+    <string name="you_do_not_have">You do not have these.</string>
+
+    <string name="would_you_like_to_get_some">Would you like to get some?</string>
+
+    <string name="sell">Would you like to sell %1$s and recover %2$s?</string>
+
+    <string name="you_must_lvl_your_tc_to">You must level your town center up to level</string>
+
+    <string name="you_cannot_buy_anymore">You cannot buy anymore of these.</string>
+
+    <string name="to_build_more"> to build more.</string>
+
+    <string name="want_to_spend">Do you want to spend %1$s magic dust%2$s to finish %3$s now?</string>
+
+    <string name="you_were_invaded">You have been invaded!\nThe gods have granted you temporary protection because you were successfully invaded(more than half your available resources were stolen) by another player.If you attack during this time the gods will take back their protection. They are not here to protect those who invade others.</string>
+
+    <string name="you_have_protection">You still have protection from the gods because you were attacked recently. The gods only protect the victums not the aggressors. If you attack someone now you will lose your protection. Sure you want to attack?</string>
+
+    <!-- Menu -->
+
+
+    <string name="settings">Settings</string>
+
+    <string name="cheats">Cheats</string>
+
+    <string name="custom_game">Custom Game</string>
+
+    <!-- Tutorial -->
+
+
+    <string name="first_blood">"Killing creatures you earn you resources.\nThey will respawn fairly regularly throughout the day."</string>
+
+    <string name="move_building">When a building is selected you can move it by clicking on it and dragging it to another location.</string>
+
+    <string name="tap_these">Select one of these, then tap on the map.</string>
+
+    <string name="build_walls_tutorial">To build walls tap the walls button then drag from one location to another to place the wall. Redrag if your not happy with the placement, Then accept using the "Build" button in the bottom right of the screen. If you cannot afford all of the walls only some will be placed</string>
+
+    <!-- Info -->
+
+
+    <!-- Stats -->
+
+
+    <string name="train_soldiers">Train Soldiers</string>
+
+    <string name="level">Level:</string>
+
+    <string name="hp">Hp:</string>
+
+    <string name="armor">Armor:</string>
+
+    <string name="dps">Damage:</string>
+
+    <string name="workers">Workers:</string>
+
+    <string name="bonus_resources">Bonus:</string>
+
+    <string name="sec">sec</string>
+
+    <!-- like 1 gold/sec -->
+
+
+    <string name="collects">Collects</string>
+
+    <string name="resources">Resources</string>
+
+    <string name="reduction">reduction</string>
+
+    <string name="heal_amount">Heals: %1$s/sec</string>
+
+    <!-- Costs -->
+
+
+    <string name="gold_cost">Gold Cost:</string>
+
+    <string name="food_cost">Food Cost:</string>
+
+    <string name="wood_cost">Wood Cost:</string>
+
+    <!-- GameElement Infos -->
+
+    <string name="catapult_tower">Does splash damage. Place where it where your enemies bottleneck to get the most benefit from it.</string>
+
+    <string name="town_centre_info">Your Town Center is the heart of your village. When your town center reaches a high enough level you can use it to advance to the next age. It stores most of your resources so make sure to keep it well protected.</string>
+
+    <string name="barracks_info">Your Barracks trains soldiers which help block the path of your enemies.</string>
+
+    <string name="church_info">Your Churches train magic and healing troops. As you level up your town center you will be allowed to level up your churches and the units it builds\n increasing their damage and healing.</string>
+
+    <string name="watch_tower_info">Your basic archer tower. Decent rate of fire and decent damage. Upgrade it to increase its damage and rate of fire.</string>
+
+    <string name="guard_tower_info">Your second defensive tower. Garrison archers inside to increase its firepower.</string>
+
+    <string name="stone_tower_info">Your strongest defensive tower. Garrison archers inside to increase its firepower.</string>
+
+    <string name="basic_healing_shrine_info">Basic Healing Shrines heal nearby soldiers.</string>
+
+    <string name="wall_info">Cheap way to get monsters to walk the path you want them to walk.</string>
+
+    <string name="farm_info">Farms are your main source of food. With each level they provide an extra 1 food per second.</string>
+
+    <string name="gold_mine_building_info">Gold Mines are your main source of gold. Garrison a worker inside to start collecting. With every level they provide an extra 1 gold per worker per second.</string>
+
+    <string name="lumber_mill_info">Lumber Mills main source of wood. Garrison a worker inside to start collecting. With every level they provide an extra 1 wood per worker per second.</string>
+
+    <string name="storage_depot_info">Storage Depots are drop off points for resources. Useful in the earlier ages before lumber mills and gold mines.</string>
+
+    <string name="bomb_trap_info">Bomb Traps are hidden from attackers until they are close. They are set on a 1 second fuse.</string>
+
+    <string name="spike_trap_info">Spike Traps are hidden from attackers until they are right above them.</string>
+
+    <string name="worker_info">Workers collect resources and build buildings.\nThey will continue to collect and build even when your away so you can set them to work then check back later on.</string>
+
+    <string name="catapult_info">Catapults are your main siege weapon that can only fire when stopped.</string>
+
+    <string name="basic_melee_info">The %1$s is your basic melee soldier.</string>
+
+    <string name="medium_melee_info">The %1$s is your medium melee soldier.</string>
+
+    <string name="upper_melee_info">The %1$s is your upper melee soldier.</string>
+
+    <string name="advanced_melee_info">The %1$s is your advanced melee soldier.</string>
+
+    <string name="basic_ranged_info">The %1$s is your basic ranged soldier.</string>
+
+    <string name="medium_ranged_info">The %1$s is your medium ranged soldier.</string>
+
+    <string name="upper_ranged_info">The %1$s is your upper ranged soldier.</string>
+
+    <string name="advanced_ranged_info">The %1$s is your advanced ranged soldier.</string>
+
+    <string name="basic_healer_info">The %1$s is your basic healer. She will heal nearby soldiers when they are hurt.</string>
+
+    <string name="medium_healer_info">The %1$s is your medium healer.</string>
+
+    <string name="upper_healer_info">The %1$s is your upper healer.</string>
+
+    <string name="advanced_healer_info">The %1$s is your advanced healer.</string>
+
+    <string name="basic_mage_info">The %1$s is your basic mage.</string>
+
+    <string name="medium_mage_info">The %1$s is your medium mage.</string>
+
+    <string name="upper_mage_info">The %1$s is your upper mage.</string>
+
+    <string name="advanced_mage_info">The %1$s is your advanced mage.</string>
+
+    <string name="mage">Mages are your first offensive magic soldiers. They shoots fireballs and cast attack speed increasing buff spells on allies.</string>
+
+    <string name="elementalist">Elementalist shoot fireballs, lightning bolts and icicle spells.</string>
+
+    <!-- GCM stuff -->
+
+
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+
+    <string name="already_registered">Device is already registered on server.</string>
+
+    <string name="gcm_registered">From GCM: device successfully registered (regId = %1$s)!</string>
+
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+
+    <string name="gcm_message">From GCM: you got message!</string>
+
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+
+    <string name="options_register">Register</string>
+
+    <string name="options_unregister">Unregister</string>
+
+    <string name="options_clear">Clear</string>
+
+    <string name="options_exit">Exit</string>
+
+    <string name="wrong_version">Wrong Version</string>
+
+    <string name="there_is_a_newer">There is a newer version available on the Google Play Store. You must update in order to play.</string>
+
+    <string name="ok">OK</string>
+
+    <string name="title_activity_game_over">GameOverActivity</string>
+    <string name="fast_tower_info">Basic arrow tower, upgrade it to increase its damage and rate of fire.</string>
+    <string name="fire_dragon_tower_info">Fire burns through armor and ignites your foes which damages them for the next little while.</string>
+    <string name="ice_dragon_tower_info">Freezes enemies slowing them down for your other towers to kill. Not effected by armor.</string>
+    <string name="shock_dragon_tower_info">Fast shooting tower </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="signin_other_error">There was an issue with sign-in, please try again later.</string>
+    <string name="signin_failure">Unable to sign in.</string>
+    <string name="rof">Rate Of Fire:</string>
+    <string name="upgrade_cost">Upgrade Cost:</string>
+</resources>

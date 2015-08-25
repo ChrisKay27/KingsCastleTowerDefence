@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/dashed_box"
+    tools:context="com.kaebe.kingscastlelib.KingsCastle" >
+
+    <TextView
+        android:id="@+id/textViewSpendToResearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/info_text_background"
+        android:lines="3"
+        android:text="Spend 6 magic dust\nto finish advancing now?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gray"
+        android:textSize="25sp" />
+
+    <LinearLayout        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSpendToResearch" >
+
+        <ImageButton
+            android:id="@+id/imageButtonNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="10dp"
+            android:src="@drawable/no_button" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="10dp"
+            android:src="@drawable/sure_button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

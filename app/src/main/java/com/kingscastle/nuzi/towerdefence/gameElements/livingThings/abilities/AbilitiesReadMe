@@ -1,0 +1,17 @@
+
+
+
+Abilities are added to the Ability Manager (AM) via the ManagerManager instance obtained via the getMM() method
+
+
+ex.
+    getMM().add(new Haste( caster , target));
+
+Notes: getMM() is available to all GameElements
+
+
+When they cast they add themselves to their targets Active Abilities list which will apply their ability via the doAbility() method.
+
+
+When they are done they will be removed from the AM.
+The target will remove the ability from its Active Abilities list when they ability returns true for isOver()
